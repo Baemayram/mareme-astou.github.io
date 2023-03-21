@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.entete{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.418),rgba(4, 9, 30, 0.322)),url(indexp.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.liendenav{
+    flex: 1;
+    text-align: right;
+}
+.liendenav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.liendenav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 10px solid black;
+}
+.liendenav ul li:hover{
+    border: 1px solid white;
+    background: rgba(100, 151, 218, 0.5);
+    transition: 0.5s;
+}.textdacceuil{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.textdacceuil h1{
+    font-size: 40px;
+    color:white;
+}
+.textdacceuil p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.visite{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size:15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.visite:hover{
+    border: 1px solid black;
+    background: white; 
+    transition: 1s;
+}
+.bienfait{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    color:white;
+}
+P{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 23px;
+    padding: 50px;
+}
+.voyage{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.bf{
+    flex-basis: 31%;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing:border-box
+    
+}
+.vonu{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.nous h2{
+    text-align: center;
+    margin-top: 2cm;
+    color:white ;
+    
+}
+.nous{
+    background-color: rgb(100, 159, 218) ;
+    color: white;
+}
+.mia{
+    background-image:linear-gradient(rgba(4, 9, 30, 0.247),rgba(4, 9, 30, 0.137)),url(indexs.jpg);
+}
